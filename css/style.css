@@ -11,6 +11,7 @@ body {
 
 #showcase {
   position: relative;
+  margin-top: 100px;
   background: url("../img/mountains.jpg");
   min-height: 600px; }
   #showcase .primary-overlay {
@@ -25,6 +26,14 @@ body {
   width: 50%;
   margin: auto;
   border-bottom: 1px #ddd solid; }
+
+#authors img {
+  margin-top: -50px; }
+#authors .card:hover {
+  background: #3292a6;
+  color: #ffffff; }
+#authors .fa {
+  color: #ffffff; }
 
 @media (max-width: 768px) {
   #showcase {
